@@ -107,9 +107,9 @@ if filter_today in h3_tag:
 		articles = articles + tmp;
 
 	#メールで送信部分
-	fromAddress = 'uyfrom2018@gmail.com';
-	myPassword = 'lbqzniaryzwwjmud';#二段階認証をオンにした後、生成されたアプリパスワードを使用
-	toAddress = 'uyfrom2018@gmail.com';
+	fromAddress = '';
+	myPassword = '';#二段階認証をオンにした後、生成されたアプリパスワードを使用
+	toAddress = '';
 	bccAddress = "";
 	Subject = '本日のアーカイブ' + '（' + year + '/' + month + '/' + day + '/' + weekday + '）';
 	Body = articles;
